@@ -1,0 +1,67 @@
+
+#!/bin/bash
+
+# Task 1 : Comments - In bash scripts, comments are used to add explanatory notes or disable certain lines of code. Our task is to create a bash script with comments explaining what the script does.
+
+# Author : Angana Bose
+# Date Created : 17-05-2024
+# Challenge name : BashBlaze-7-Days-of-Bash-Scripting-Challenge
+# Forked from : prajwalpd7/BashBlaze-7-Days-of-Bash-Scripting-Challenge
+# DAY-01 Challenge
+
+# Task 2: Echo - The echo command is used to display messages on the terminal. Our task is to create a bash script that uses echo to print a message of your choice.
+
+echo ".........................................................."
+echo "Hello, This day 1 of 7 days of bash scripting challenge."
+echo ".........................................................."
+echo " "
+# Task 3 : Variables - Variables in bash are used to store data and can be referenced by their name. Our task is to create a bash script that declares variables and assigns values to them.
+echo "..........................................................."
+echo " "
+var=People
+echo "On your mark, Get Set Go $var!"
+echo "............................................................"
+echo " "
+
+# Task 4: Using Variables -  Now that you have declared variables, let's use them to perform a simple task. Create a bash script that takes two variables (numbers) as input and prints their sum using those variables.
+echo "............................................................"
+echo "  "
+read -p "Enter a number: " num1
+read -p "Enter another number: " num2
+res=$((num1+num2))                # Method1
+echo "The sum : " $res
+echo " "
+
+echo "The another way of getting the sum of two variables "
+res1=`expr $num1 + $num2`            # Method2
+echo "The sum with another one is : " $res1
+echo "............................................................"
+echo " "
+
+# Task 5: Using Built-in Variables - Bash provides several built-in variables that hold useful information. Your task is to create a bash script that utilizes at least three different built-in variables to display relevant information.
+echo "............................................................."
+echo " "
+echo "This is the shell variable: " $SHELL
+
+echo "This is the present working directory: " $PWD
+
+echo "This is the home directory: " $HOME
+
+echo "This is the user variable: " $USER
+echo "............................................................"
+echo " "
+# Task 6: Wildcards are special characters used to perform pattern matching when working with files. Our task is to create a bash script that utilizes wildcards to list all the files with a specific extension in a directory.
+echo ".............................................................."
+echo " "
+#Method 1
+ls *.md
+
+#Method 2
+ls *[py]
+
+
+#Method 3
+ls | grep *.txt
+
+echo "............................................................"
+echo " "
