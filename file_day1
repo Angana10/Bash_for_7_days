@@ -50,6 +50,7 @@ echo "This is the home directory: " $HOME
 echo "This is the user variable: " $USER
 echo "............................................................"
 echo " "
+
 # Task 6: Wildcards are special characters used to perform pattern matching when working with files. Our task is to create a bash script that utilizes wildcards to list all the files with a specific extension in a directory.
 echo ".............................................................."
 echo " "
