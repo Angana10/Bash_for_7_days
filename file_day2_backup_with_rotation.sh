@@ -44,7 +44,7 @@ then
 	tar -czvf "${dest_dir}/backup_folder/${backup_file}" "${source_dir}"
 else
 	echo "Arguments not sufficient. Hence, exiting ......"
-	#exit 1
+	exit 1
 fi
 
 if [ $? -eq 0 ]
@@ -52,7 +52,7 @@ then
 	echo "Backup created successfully in : ${dest_dir}/backup_folder"
 else
 	echo "Backup failed"
-	#exit 1
+	exit 1
 fi
 
 #Implementing rotation mechanism
