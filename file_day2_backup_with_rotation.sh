@@ -8,7 +8,7 @@
 # Challenge name : BashBlaze-7-Days-of-Bash-Scripting-Challenge
 # Forked from : prajwalpd7/BashBlaze-7-Days-of-Bash-Scripting-Challenge
 # DAY-02 Challenge-2
-# To run : ./file_day2_backup_with_rotation.sh
+# To run : ./file_day2_backup_with_rotation.sh arg1 arg2
 ###########################################################################
 
 : '
